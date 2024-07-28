@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Blog-preview-card-sol](https://github.com/Joewanaaa/blog-preview-card)
-- Live Site URL: [Blog Preview Card](https://your-live-site-url.com)
+- Live Site URL: [Blog Preview Card](https://blog-preview-card-knum4oj4m-joewanaaas-projects.vercel.app/)
 
 ## My process
 
