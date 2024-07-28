@@ -1,0 +1,86 @@
+body{
+    background: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card{
+    width: 20rem;
+    border-color: hsl(0, 0%, 7%);
+    margin-top:5%;box-shadow: 7px 7px;
+}
+#article-img{
+    width: 300px;
+    margin-top: 3%;
+}
+#text p:nth-child(1){
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: .90rem;
+    width: 5rem;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+
+#text p:nth-child(2){
+    font-size: .75rem;
+    font-weight: 800;
+}
+h1{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+.card-text{
+    color: hsl(0, 0%, 42%);
+    font-size: .90rem;
+}
+
+#avatar{
+    height: 25px;
+    width: 25px;
+    margin-right: 2%;
+}
+
+a{
+    font-weight: 800;
+    text-align: center;
+    font-size: .75rem;
+}
+
+@media(max-width:991px){
+    .card{
+        height: 30rem;
+    }
+
+    #article-img{
+        border-radius: 15px;
+        overflow: hidden;
+        perspective: 1px;
+        padding-top:2%;
+    }
+    #text p:nth-child(1){
+        margin-top:3%;
+    }
+    #text p:nth-child(2){
+        margin-top: 3%;
+    }
+    .card-title{
+        padding-top: 3%;
+    }
+    .card-text{
+        padding-bottom: 5%;
+        padding-top: 3%;
+    }
+}
