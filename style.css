@@ -18,7 +18,8 @@ body{
 }
 #article-img{
     width: 300px;
-    margin-top: 3%;
+    margin-top: 5%;
+    margin-left: -1%;
 }
 #text p:nth-child(1){
     background-color: hsl(47, 88%, 63%);

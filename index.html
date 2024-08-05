@@ -14,26 +14,21 @@
   <title>Frontend Mentor | Blog preview card</title>
 </head>
 <body>
-  <main role="main">
-    <article class="container-fluid d-flex justify-content-center align-items-center min-vh-100" id="main-container">
-      <section class="row ">
-        <section class="col-12 " id="main-col">
-            <section class="card rounded-4">
-              <img src="/assets/images/illustration-article.svg" alt="article image" id="article-img" class="card-img-top rounded-4 mx-auto d-block">
-              <section class="card-body" id="text">
-                <p class="rounded-2">Learning</p>
-                <p> Published 21 Dec 2023</p>
-                <h1 class="card-title"> HTML & CSS foundations</h1>
-                <p class="card-text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-                <section class="col-12" id="user">
-                  <img src="/assets/images/image-avatar.webp" id="avatar" alt="autor image">
-                  <a>Greg Hooper</a>
-                </section>
-              </section><!--End of .card-body-->
-            </section><!--End of .card-->
-          </section><!--End of #main-col-->
-        </section><!--End of .row-->
-      </article><!--End of .container-->
+  <main role="main" class="d-flex justify-content-center align-items-center min-vh-100">
+    <article class="container-fluid card rounded-4">
+      <img src="/assets/images/illustration-article.svg" class="card-img-top rounded-4" alt="image article" id="article-img">
+      <section class="card-body" id="text">
+        <p class="rounded-2">Learning</p>
+        <p> Published 21 Dec 2023</p>
+        <h1 class="card-title"> HTML & CSS foundations</h1>
+        <p class="card-text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+        <section>
+          <img src="/assets/images/image-avatar.webp" id="avatar" alt="autor image">
+          <a>Greg Hooper</a>
+        </section>
+      </section>
+    </article>
   </main>
   <footer role="contentinfo">
     <section class="attribution">
